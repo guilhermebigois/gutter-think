@@ -1,0 +1,66 @@
+.banner {
+    background: #fff;
+}
+
+.form-top {
+    background: #7ac043;
+}
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.banner01 {
+    background: #1f0242;
+}
+
+.color-1 {
+    background: #e41a4c;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.black {
+    color: #000;
+}
+
+.text12 {
+    font-size: 20px;
+}
+
+.m-t-preencha {
+    margin-top: 20px;
+}
+
+.p-t-preencha {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.img-circule {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    margin: 60px 0 0 60px;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.banner span {
+    margin: 10px 0 0 60px;
+    font-size: 45px;
+}
+
+.banner p {
+    margin: 10px 0 0 60px;
+    max-width: 460px;
+}
+
+.title-bn {
+    margin: 0 0 0 60px;
+}
