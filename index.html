@@ -27,17 +27,17 @@ talvez esse seja o seu momento!</p>
                         <p class="text12"><b>Preencha aqui seus dados</b></p>
                         <div class="form-group">
                             <label for="Nome">Nome</label>
-                            <input type="text" name="nome" class="form-control" id="" placeholder="Informe seu nome">
+                            <input type="text" name="nome" class="form-control" required id="" placeholder="Informe seu nome">
                         </div>
                         <div class="form-group">
                             <label for="e-mail">E-mail</label>
-                            <input type="text" name="email" class="form-control" id="" placeholder="Informe seu email">
+                            <input type="email" name="email" class="email form-control" required placeholder="Informe seu email">
                         </div>
                         <div class="form-group">
                             <div class="form-group required">
                                 <label>Já conhece o GAMA?</label>
                                 <div class="radio">
-                                    <label><input type="radio" name="conhece" value="Sim">Sim</label>
+                                    <label><input type="radio" name="conhece" value="Sim" required>Sim</label>
                                 </div>
                                 <div class="radio">
                                     <label><input type="radio" name="conhece" value="Nao">Não</label>
@@ -47,7 +47,7 @@ talvez esse seja o seu momento!</p>
                         <div class="form-group">
                             <label for="deseja receber novidades">Deseja receber novidades?</label>
                             <div class="radio">
-                                <label><input type="radio" name="novidades" value="Sim">Sim</label>
+                                <label><input type="radio" name="novidades" value="Sim" required>Sim</label>
                             </div>
                             <div class="radio">
                                 <label><input type="radio" name="novidades" value="Nao">Não</label>
