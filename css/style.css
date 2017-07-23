@@ -64,3 +64,26 @@ h1 {
 .title-bn {
     margin: 0 0 0 60px;
 }
+
+.obrigado {
+    position: absolute;
+    width:100%;
+    height:100%;
+
+}
+.obrigado p{
+    max-width: 270px;
+    margin: 10px auto;
+    text-align: left;
+}
+.obrigado h2{
+    padding-top: 200px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.obrigado a {
+    margin-top: 10px;
+    color: #fff;
+    border-color: #fff;
+    background: #eca31c;
+}
