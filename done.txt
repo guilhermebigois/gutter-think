@@ -1,0 +1,59 @@
+1) CAMINHO ATÉ A PASTA
+cd ./Google \Drive/Projetos/
+
+2) CRIÇÃO DE DIRETÓRIO
+mkdir curso-git
+
+3) CAMINHO ATÉ DIRETÓRIO
+cd ./curso-git
+
+4) MARCAR DIRETÓRIO COMO INICIAL
+git init
+
+5) LISTAR ARQUIVOS MONITORADOS
+git ls-files
+
+6) ADICIONAR ARQUIVO A MONITORAÇÃO
+git add index.html
+
+7) CONFIGURAR IDENTIFICAÇÃO
+git config user.name "Guilherme Bigois"
+git config user.email "guilhermebigois@outlook.com"
+
+8) CONFIGURAR IDENTIFICAÇÃO GLOBAL
+git config --global user.name "Guilherme Bigois"
+git config --global user.email "guilhermebigois@outlook.com"
+
+9) COMMITAR
+git commit -m "Início do projeto"
+
+10) ADICIONAR VÁRIOS AO RASTREIO
+git add .
+git add -a
+git add --all
+git add arquivo1.html arquivo2.html
+
+11) REMOVER ARQUIVO DO HEAD PARA O WD
+git reset HEAD arquivo1.html
+git reset HEAD
+
+12) GIT ADD INTERATIVO
+git add -i
+
+13) VER OS COMMITS
+git log
+
+14) VER OS ARQUIVOS ALTERADOS NOS COMMITS
+git whatschanged
+
+15) VER O QUE FOI ALTERADO NOS ARQUIVOS COMITADOS
+git whatschanged -p
+
+16) ADICIONAR REPOSITÓRIO REMOTO
+git remote add origin https://github.com/guilhermebigois/gutter-think.git
+
+17) LISTAR REPOSITÓRIOS REMOTOS
+git remote
+
+18) SUBIR PARA O GITHUB
+git push origin master
